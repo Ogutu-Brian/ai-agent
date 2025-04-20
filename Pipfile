@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-community = "*"
+langgraph = "*"
+langchain-anthropic = "*"
+tavily-python = "*"
+langgraph-checkpoint-sqlite = "*"
+langchain = {extras = ["openai"], version = "*"}
+langchain-core = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
